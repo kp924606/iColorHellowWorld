@@ -45,5 +45,4 @@
 <img src="image3.png" width="300" height="400" alt="Black" />
 <img src="image4.png" width="300" height="400" alt="Black" />
 <img src="image5.png" width="300" height="400" alt="Black" />
-<img src="image6.png" width="300" height="400" alt="Black" />
 <img src="image7.png" width="300" height="400" alt="Black" />
