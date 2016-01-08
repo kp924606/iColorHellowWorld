@@ -38,6 +38,8 @@
 
     `// 嘗試的選擇其他按鈕並移動滑桿. 觀察顯示在畫面上的顏色.`
 
+
+Screen Image
 ===============
 
 <img src="image1.png" width="300" height="400" alt="Black" />
