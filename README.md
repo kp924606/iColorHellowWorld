@@ -40,4 +40,10 @@
 
 ===============
 
-<img src="image1.png" width="512" height="768" alt="Black" />
+<img src="image1.png" width="300" height="400" alt="Black" />
+<img src="image2.png" width="300" height="400" alt="Red" />
+<img src="image3.png" width="300" height="400" alt="Black" />
+<img src="image4.png" width="300" height="400" alt="Black" />
+<img src="image5.png" width="300" height="400" alt="Black" />
+<img src="image6.png" width="300" height="400" alt="Black" />
+<img src="image7.png" width="300" height="400" alt="Black" />
