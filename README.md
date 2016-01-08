@@ -48,3 +48,10 @@ Screen Image
 <img src="image4.png" width="300" height="400" alt="Black" />
 <img src="image5.png" width="300" height="400" alt="Black" />
 <img src="image7.png" width="300" height="400" alt="Black" />
+
+
+Conclusion
+===============
+Please leave me comment to share your thought on the iColorHellowWorld.
+
+thanks. Wish you have a nice day.
