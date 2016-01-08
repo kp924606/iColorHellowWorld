@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E5D4DE196979C600F6C3F6 /* iColorHellowWorldIcon01.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E5D4DD196979C600F6C3F6 /* iColorHellowWorldIcon01.png */; };
+		04F05AF81966BF1B002C6B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F05AF71966BF1B002C6B8D /* Foundation.framework */; };
+		04F05AFA1966BF1B002C6B8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F05AF91966BF1B002C6B8D /* CoreGraphics.framework */; };
+		04F05AFC1966BF1B002C6B8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F05AFB1966BF1B002C6B8D /* UIKit.framework */; };
+		04F05B021966BF1B002C6B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F05B001966BF1B002C6B8D /* InfoPlist.strings */; };
+		04F05B041966BF1B002C6B8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F05B031966BF1B002C6B8D /* main.m */; };
+		04F05B081966BF1B002C6B8D /* iColorHellowWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F05B071966BF1B002C6B8D /* iColorHellowWorldAppDelegate.m */; };
+		04F05B0B1966BF1B002C6B8D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F05B091966BF1B002C6B8D /* Main_iPhone.storyboard */; };
+		04F05B0E1966BF1B002C6B8D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F05B0C1966BF1B002C6B8D /* Main_iPad.storyboard */; };
+		04F05B111966BF1B002C6B8D /* iColorHellowWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F05B101966BF1B002C6B8D /* iColorHellowWorldViewController.m */; };
+		04F05B131966BF1B002C6B8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F05B121966BF1B002C6B8D /* Images.xcassets */; };
+		04F05B1A1966BF1B002C6B8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F05B191966BF1B002C6B8D /* XCTest.framework */; };
+		04F05B1B1966BF1B002C6B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F05AF71966BF1B002C6B8D /* Foundation.framework */; };
+		04F05B1C1966BF1B002C6B8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F05AFB1966BF1B002C6B8D /* UIKit.framework */; };
+		04F05B241966BF1B002C6B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F05B221966BF1B002C6B8D /* InfoPlist.strings */; };
+		04F05B261966BF1B002C6B8D /* iColorHellowWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F05B251966BF1B002C6B8D /* iColorHellowWorldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F05B1D1966BF1B002C6B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F05AEC1966BF1B002C6B8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F05AF31966BF1B002C6B8D;
+			remoteInfo = iColorHellowWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E5D4DD196979C600F6C3F6 /* iColorHellowWorldIcon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iColorHellowWorldIcon01.png; sourceTree = "<group>"; };
+		04F05AF41966BF1B002C6B8D /* iColorHellowWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iColorHellowWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F05AF71966BF1B002C6B8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04F05AF91966BF1B002C6B8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04F05AFB1966BF1B002C6B8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04F05AFF1966BF1B002C6B8D /* iColorHellowWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iColorHellowWorld-Info.plist"; sourceTree = "<group>"; };
+		04F05B011966BF1B002C6B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F05B031966BF1B002C6B8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F05B051966BF1B002C6B8D /* iColorHellowWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iColorHellowWorld-Prefix.pch"; sourceTree = "<group>"; };
+		04F05B061966BF1B002C6B8D /* iColorHellowWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iColorHellowWorldAppDelegate.h; sourceTree = "<group>"; };
+		04F05B071966BF1B002C6B8D /* iColorHellowWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iColorHellowWorldAppDelegate.m; sourceTree = "<group>"; };
+		04F05B0A1966BF1B002C6B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		04F05B0D1966BF1B002C6B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		04F05B0F1966BF1B002C6B8D /* iColorHellowWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iColorHellowWorldViewController.h; sourceTree = "<group>"; };
+		04F05B101966BF1B002C6B8D /* iColorHellowWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iColorHellowWorldViewController.m; sourceTree = "<group>"; };
+		04F05B121966BF1B002C6B8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04F05B181966BF1B002C6B8D /* iColorHellowWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iColorHellowWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F05B191966BF1B002C6B8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04F05B211966BF1B002C6B8D /* iColorHellowWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iColorHellowWorldTests-Info.plist"; sourceTree = "<group>"; };
+		04F05B231966BF1B002C6B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F05B251966BF1B002C6B8D /* iColorHellowWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iColorHellowWorldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F05AF11966BF1B002C6B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F05AFA1966BF1B002C6B8D /* CoreGraphics.framework in Frameworks */,
+				04F05AFC1966BF1B002C6B8D /* UIKit.framework in Frameworks */,
+				04F05AF81966BF1B002C6B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F05B151966BF1B002C6B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F05B1A1966BF1B002C6B8D /* XCTest.framework in Frameworks */,
+				04F05B1C1966BF1B002C6B8D /* UIKit.framework in Frameworks */,
+				04F05B1B1966BF1B002C6B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F05AEB1966BF1B002C6B8D = {
+			isa = PBXGroup;
+			children = (
+				04F05AFD1966BF1B002C6B8D /* iColorHellowWorld */,
+				04F05B1F1966BF1B002C6B8D /* iColorHellowWorldTests */,
+				04F05AF61966BF1B002C6B8D /* Frameworks */,
+				04F05AF51966BF1B002C6B8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F05AF51966BF1B002C6B8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F05AF41966BF1B002C6B8D /* iColorHellowWorld.app */,
+				04F05B181966BF1B002C6B8D /* iColorHellowWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F05AF61966BF1B002C6B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F05AF71966BF1B002C6B8D /* Foundation.framework */,
+				04F05AF91966BF1B002C6B8D /* CoreGraphics.framework */,
+				04F05AFB1966BF1B002C6B8D /* UIKit.framework */,
+				04F05B191966BF1B002C6B8D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F05AFD1966BF1B002C6B8D /* iColorHellowWorld */ = {
+			isa = PBXGroup;
+			children = (
+				04F05B061966BF1B002C6B8D /* iColorHellowWorldAppDelegate.h */,
+				04F05B071966BF1B002C6B8D /* iColorHellowWorldAppDelegate.m */,
+				04F05B091966BF1B002C6B8D /* Main_iPhone.storyboard */,
+				04F05B0C1966BF1B002C6B8D /* Main_iPad.storyboard */,
+				04F05B0F1966BF1B002C6B8D /* iColorHellowWorldViewController.h */,
+				04F05B101966BF1B002C6B8D /* iColorHellowWorldViewController.m */,
+				04F05B121966BF1B002C6B8D /* Images.xcassets */,
+				04F05AFE1966BF1B002C6B8D /* Supporting Files */,
+			);
+			path = iColorHellowWorld;
+			sourceTree = "<group>";
+		};
+		04F05AFE1966BF1B002C6B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E5D4DD196979C600F6C3F6 /* iColorHellowWorldIcon01.png */,
+				04F05AFF1966BF1B002C6B8D /* iColorHellowWorld-Info.plist */,
+				04F05B001966BF1B002C6B8D /* InfoPlist.strings */,
+				04F05B031966BF1B002C6B8D /* main.m */,
+				04F05B051966BF1B002C6B8D /* iColorHellowWorld-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F05B1F1966BF1B002C6B8D /* iColorHellowWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F05B251966BF1B002C6B8D /* iColorHellowWorldTests.m */,
+				04F05B201966BF1B002C6B8D /* Supporting Files */,
+			);
+			path = iColorHellowWorldTests;
+			sourceTree = "<group>";
+		};
+		04F05B201966BF1B002C6B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F05B211966BF1B002C6B8D /* iColorHellowWorldTests-Info.plist */,
+				04F05B221966BF1B002C6B8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F05AF31966BF1B002C6B8D /* iColorHellowWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F05B291966BF1B002C6B8D /* Build configuration list for PBXNativeTarget "iColorHellowWorld" */;
+			buildPhases = (
+				04F05AF01966BF1B002C6B8D /* Sources */,
+				04F05AF11966BF1B002C6B8D /* Frameworks */,
+				04F05AF21966BF1B002C6B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iColorHellowWorld;
+			productName = iColorHellowWorld;
+			productReference = 04F05AF41966BF1B002C6B8D /* iColorHellowWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F05B171966BF1B002C6B8D /* iColorHellowWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F05B2C1966BF1B002C6B8D /* Build configuration list for PBXNativeTarget "iColorHellowWorldTests" */;
+			buildPhases = (
+				04F05B141966BF1B002C6B8D /* Sources */,
+				04F05B151966BF1B002C6B8D /* Frameworks */,
+				04F05B161966BF1B002C6B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F05B1E1966BF1B002C6B8D /* PBXTargetDependency */,
+			);
+			name = iColorHellowWorldTests;
+			productName = iColorHellowWorldTests;
+			productReference = 04F05B181966BF1B002C6B8D /* iColorHellowWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F05AEC1966BF1B002C6B8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iColorHellowWorld;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iColorHellowWorld;
+				TargetAttributes = {
+					04F05B171966BF1B002C6B8D = {
+						TestTargetID = 04F05AF31966BF1B002C6B8D;
+					};
+				};
+			};
+			buildConfigurationList = 04F05AEF1966BF1B002C6B8D /* Build configuration list for PBXProject "iColorHellowWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F05AEB1966BF1B002C6B8D;
+			productRefGroup = 04F05AF51966BF1B002C6B8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F05AF31966BF1B002C6B8D /* iColorHellowWorld */,
+				04F05B171966BF1B002C6B8D /* iColorHellowWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F05AF21966BF1B002C6B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F05B0E1966BF1B002C6B8D /* Main_iPad.storyboard in Resources */,
+				04F05B131966BF1B002C6B8D /* Images.xcassets in Resources */,
+				04F05B0B1966BF1B002C6B8D /* Main_iPhone.storyboard in Resources */,
+				04E5D4DE196979C600F6C3F6 /* iColorHellowWorldIcon01.png in Resources */,
+				04F05B021966BF1B002C6B8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F05B161966BF1B002C6B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F05B241966BF1B002C6B8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F05AF01966BF1B002C6B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F05B081966BF1B002C6B8D /* iColorHellowWorldAppDelegate.m in Sources */,
+				04F05B111966BF1B002C6B8D /* iColorHellowWorldViewController.m in Sources */,
+				04F05B041966BF1B002C6B8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F05B141966BF1B002C6B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F05B261966BF1B002C6B8D /* iColorHellowWorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F05B1E1966BF1B002C6B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F05AF31966BF1B002C6B8D /* iColorHellowWorld */;
+			targetProxy = 04F05B1D1966BF1B002C6B8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F05B001966BF1B002C6B8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F05B011966BF1B002C6B8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04F05B091966BF1B002C6B8D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F05B0A1966BF1B002C6B8D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		04F05B0C1966BF1B002C6B8D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F05B0D1966BF1B002C6B8D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		04F05B221966BF1B002C6B8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F05B231966BF1B002C6B8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F05B271966BF1B002C6B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F05B281966BF1B002C6B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F05B2A1966BF1B002C6B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iColorHellowWorld/iColorHellowWorld-Prefix.pch";
+				INFOPLIST_FILE = "iColorHellowWorld/iColorHellowWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04F05B2B1966BF1B002C6B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iColorHellowWorld/iColorHellowWorld-Prefix.pch";
+				INFOPLIST_FILE = "iColorHellowWorld/iColorHellowWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04F05B2D1966BF1B002C6B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iColorHellowWorld.app/iColorHellowWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iColorHellowWorld/iColorHellowWorld-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iColorHellowWorldTests/iColorHellowWorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04F05B2E1966BF1B002C6B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iColorHellowWorld.app/iColorHellowWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iColorHellowWorld/iColorHellowWorld-Prefix.pch";
+				INFOPLIST_FILE = "iColorHellowWorldTests/iColorHellowWorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F05AEF1966BF1B002C6B8D /* Build configuration list for PBXProject "iColorHellowWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F05B271966BF1B002C6B8D /* Debug */,
+				04F05B281966BF1B002C6B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F05B291966BF1B002C6B8D /* Build configuration list for PBXNativeTarget "iColorHellowWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F05B2A1966BF1B002C6B8D /* Debug */,
+				04F05B2B1966BF1B002C6B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F05B2C1966BF1B002C6B8D /* Build configuration list for PBXNativeTarget "iColorHellowWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F05B2D1966BF1B002C6B8D /* Debug */,
+				04F05B2E1966BF1B002C6B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F05AEC1966BF1B002C6B8D /* Project object */;
+}

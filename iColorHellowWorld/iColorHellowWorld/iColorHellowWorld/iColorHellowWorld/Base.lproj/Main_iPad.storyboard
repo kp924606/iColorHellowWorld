@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="rux-bq-yu6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--iColor-->
+        <scene sceneID="hx2-qJ-kQf">
+            <objects>
+                <viewController id="CuO-Ig-3xz" customClass="iColorHellowWorldViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JcN-Yf-lgK"/>
+                        <viewControllerLayoutGuide type="bottom" id="v01-Sq-fFY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QdY-ap-B5i">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="190" translatesAutoresizingMaskIntoConstraints="NO" id="19L-Vt-2Ou">
+                                <rect key="frame" x="289" y="197" width="190" height="190"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hellow World~ Color">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="23" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="127" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="geU-Ei-Z70">
+                                <rect key="frame" x="18" y="889" width="732" height="31"/>
+                                <animations/>
+                                <color key="minimumTrackTintColor" red="1" green="0.94213487610000002" blue="0.11976323179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="SliderChangeValue:" destination="CuO-Ig-3xz" eventType="valueChanged" id="1nb-vk-4hV"/>
+                                    <action selector="UISliderRandomTouchDown:" destination="CuO-Ig-3xz" eventType="touchDown" id="mgl-9b-yZ0"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="370" translatesAutoresizingMaskIntoConstraints="NO" id="yWm-cg-fhF">
+                                <rect key="frame" x="199" y="473" width="370" height="140"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="R                 G                 B">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="23" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRm-cs-0wc">
+                                <rect key="frame" x="137" y="758" width="100" height="100"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="R">
+                                    <color key="titleColor" red="1" green="0.035080149960000001" blue="0.069027989440000007" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonR:" destination="CuO-Ig-3xz" eventType="touchUpInside" id="cVR-7N-GHp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gy-fu-fVs">
+                                <rect key="frame" x="334" y="758" width="100" height="100"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="G">
+                                    <color key="titleColor" red="0.094992013619999996" green="0.36480978260000002" blue="0.043000399609999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonG:" destination="CuO-Ig-3xz" eventType="touchUpInside" id="HNf-vk-pD9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzO-KW-MtE">
+                                <rect key="frame" x="530" y="758" width="100" height="100"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="B">
+                                    <color key="titleColor" red="0.1050126238" green="0.17282829520000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonB:" destination="CuO-Ig-3xz" eventType="touchUpInside" id="qbH-Vi-GCM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="iColor" id="PS3-rc-zbG"/>
+                    <navigationItem key="navigationItem" id="oLM-eZ-TZp"/>
+                    <connections>
+                        <outlet property="ButtonB" destination="SzO-KW-MtE" id="hhb-XQ-uag"/>
+                        <outlet property="ButtonG" destination="9Gy-fu-fVs" id="Skw-Kc-Nvg"/>
+                        <outlet property="ButtonR" destination="pRm-cs-0wc" id="Q18-sz-Oao"/>
+                        <outlet property="LabelShowStatus" destination="19L-Vt-2Ou" id="Wl4-kd-FzE"/>
+                        <outlet property="LabelShowValue" destination="yWm-cg-fhF" id="KUP-4n-0Fh"/>
+                        <outlet property="SliderChangeValue" destination="geU-Ei-Z70" id="8ch-Xs-aY6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XIr-pi-KOS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2191" y="-257"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3VU-Ff-fP8">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="rux-bq-yu6" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="TXZ-We-R2Y">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CuO-Ig-3xz" kind="relationship" relationship="viewControllers" id="Mmg-Ty-stw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryn-rR-beD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3129" y="-257"/>
+        </scene>
+    </scenes>
+</document>
